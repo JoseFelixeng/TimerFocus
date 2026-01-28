@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./assets/pomodoro.png" type="image/x-png" width="16" height="16">
+
+
+    <title>TimerFocus</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">25</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+        <div id="controls">
+            <Button class="play">
+                <img src="./assets/play.svg" alt="Botão Play" width="64" height="64">
+            </Button>
+            <button class="pause hide">
+                <img src="./assets/pause.svg" alt="Botão pause" width="64" height="64">
+            </button>
+            <Button class="stop hide">
+                <img src="./assets/stop.svg" alt="Botão pause" width="64" height="64">
+            </Button>
+            <button class="set">
+                <img src="./assets/set.svg" alt="Botão pause" width="64" height="64">
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <button class="sound-on">
+            <img src="./assets/sound.svg" alt="Som habilitado" width="64" height="64">
+        </button>
+        <button class="sound-off hide">
+            <img src="./assets/sound-off.svg" alt="Som Desabilitado" width="64" height="64">
+        </button>
+    </footer>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
