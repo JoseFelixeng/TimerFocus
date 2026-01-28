@@ -22,13 +22,13 @@ export default function({controls, timer, sound}){
     btnSoundOff.addEventListener('click', function(){
         btnSoundOn.classList.remove('hide')
         btnSoundOff.classList.add('hide')
-        sound.bgAudio.pause()
+        sound.bgAudio.play()
     })
-
+    
     btnSoundOn.addEventListener('click', function(){
         btnSoundOn.classList.add('hide')
         btnSoundOff.classList.remove('hide')
-        sound.bgAudio.play()
+        sound.bgAudio.pause()
     })
 
     btnSet.addEventListener('click', function(){

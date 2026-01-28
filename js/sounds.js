@@ -4,7 +4,7 @@ export default function(){
     const kitchenTimer = new Audio("sons/audios_kichen-timer.mp3")
     const bgAudio = new Audio("sons/audios_bg-audio.mp3")
 
-    bgAudio.loop
+    bgAudio.loop = true
 
 
     function PressButton(){
